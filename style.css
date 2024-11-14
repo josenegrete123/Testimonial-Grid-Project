@@ -82,3 +82,25 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    gap: 1.0625em;
+    align-items: center;
+}
+
+.profile_image {
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.first .profile_image {
+    border: 2px solid #A775F1;
+}
+
+.fourth .profile_image {
+    border: 2px solid #A775F1;
+}

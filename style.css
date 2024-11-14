@@ -225,7 +225,9 @@ main {
 @media only screen and (min-width: 90em) {
     main {
         display: grid;
-        grid-auto-columns: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        width: min(95%, 70rem);
+        gap: 1.5rem;
     }
 
     .first {
@@ -251,9 +253,8 @@ main {
 
     body {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 60%;
-        margin: 0 auto;
     }
 }

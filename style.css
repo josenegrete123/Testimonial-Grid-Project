@@ -182,6 +182,7 @@ main {
 /* Header for first card */
 
 .first .header__name, .first .header__title,
-.second .header__name, .second .header__title{
+.second .header__name, .second .header__title,
+.fourth .header__name, .fourth .header__title {
     color: var(--white);
 }

@@ -101,7 +101,7 @@ body {
 .profile_image {
     border-radius: 2em;
     overflow: hidden;
-    width: 1.75em;
+    width: 2.25em;
 }
 
 .first .profile_image {
@@ -161,28 +161,65 @@ main {
 /* Headers for each card */
 
 .header__name {
-    font-family: "Barlow Semi Condensed", sans-serif;
+    font-family: "Barlow Semi Condensed";
     font-style: normal;
     font-weight: 500;
     line-height: 13px;
     letter-spacing: 0;
-    font-size: 0.813rem;
+    font-size: 0.8125rem;
 }
 
 .header__title {
-    font-family: "Barlow Semi Condensed", sans-serif;
+    font-family: "Barlow Semi Condensed";
     font-style: normal;
     font-weight: 500;
     line-height: 11px;
     letter-spacing: 0;
     font-size: 0.6875em;
     opacity: 50%;
+    margin-top: .3em;
 }
 
-/* Header for first card */
+/* Header for first, second, and fourth cards */
 
 .first .header__name, .first .header__title,
 .second .header__name, .second .header__title,
-.fourth .header__name, .fourth .header__title {
+.fourth .header__name, .fourth .header__title,
+.first .review, .second .review, .fourth .review {
     color: var(--white);
+}
+
+/* Header for third and fifth card */
+
+.third .header__name, .third .header__title,
+.fifth .header__name, .fifth .header__title {
+    color: var(--grayish-blue);
+}
+
+/* Review section */
+
+.review {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+/* Font color for third and fifth cards */
+
+.third .review, .third .quote,
+.fifth .review, .fifth .quote {
+    color: var(--grayish-blue);
+}
+
+/* Quote styles */
+.quote {
+    font-family: "Barlow Semi Condensed";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 0.813rem;
+    opacity: 70%;
+
+    color: var(--light-gray);
 }
